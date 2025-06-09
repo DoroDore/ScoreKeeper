@@ -7,14 +7,7 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		E4AC798A2DDFF6CF00550BC4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4AC79732DDFF6CD00550BC4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E4AC797A2DDFF6CD00550BC4;
-			remoteInfo = ScoreKeeper;
-		};
-		E4AC79942DDFF6CF00550BC4 /* PBXContainerItemProxy */ = {
+		E42DC10D2DE6EB0900AE6E4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E4AC79732DDFF6CD00550BC4 /* Project object */;
 			proxyType = 1;
@@ -24,45 +17,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E42DC1092DE6EB0800AE6E4B /* ScoreKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AC797B2DDFF6CD00550BC4 /* ScoreKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4AC79892DDFF6CF00550BC4 /* ScoreKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4AC79932DDFF6CF00550BC4 /* ScoreKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		E42DC10A2DE6EB0900AE6E4B /* ScoreKeeperTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScoreKeeperTests;
+			sourceTree = "<group>";
+		};
 		E4AC797D2DDFF6CD00550BC4 /* ScoreKeeper */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ScoreKeeper;
 			sourceTree = "<group>";
 		};
-		E4AC798C2DDFF6CF00550BC4 /* ScoreKeeperTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ScoreKeeperTests;
-			sourceTree = "<group>";
-		};
-		E4AC79962DDFF6CF00550BC4 /* ScoreKeeperUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ScoreKeeperUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E42DC1062DE6EB0800AE6E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4AC79782DDFF6CD00550BC4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4AC79862DDFF6CF00550BC4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4AC79902DDFF6CF00550BC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				E4AC797D2DDFF6CD00550BC4 /* ScoreKeeper */,
-				E4AC798C2DDFF6CF00550BC4 /* ScoreKeeperTests */,
-				E4AC79962DDFF6CF00550BC4 /* ScoreKeeperUITests */,
+				E42DC10A2DE6EB0900AE6E4B /* ScoreKeeperTests */,
 				E4AC797C2DDFF6CD00550BC4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				E4AC797B2DDFF6CD00550BC4 /* ScoreKeeper.app */,
-				E4AC79892DDFF6CF00550BC4 /* ScoreKeeperTests.xctest */,
-				E4AC79932DDFF6CF00550BC4 /* ScoreKeeperUITests.xctest */,
+				E42DC1092DE6EB0800AE6E4B /* ScoreKeeperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +73,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E42DC1082DE6EB0800AE6E4B /* ScoreKeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42DC10F2DE6EB0900AE6E4B /* Build configuration list for PBXNativeTarget "ScoreKeeperTests" */;
+			buildPhases = (
+				E42DC1052DE6EB0800AE6E4B /* Sources */,
+				E42DC1062DE6EB0800AE6E4B /* Frameworks */,
+				E42DC1072DE6EB0800AE6E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E42DC10E2DE6EB0900AE6E4B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E42DC10A2DE6EB0900AE6E4B /* ScoreKeeperTests */,
+			);
+			name = ScoreKeeperTests;
+			packageProductDependencies = (
+			);
+			productName = ScoreKeeperTests;
+			productReference = E42DC1092DE6EB0800AE6E4B /* ScoreKeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4AC797A2DDFF6CD00550BC4 /* ScoreKeeper */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4AC799D2DDFF6CF00550BC4 /* Build configuration list for PBXNativeTarget "ScoreKeeper" */;
@@ -117,52 +118,6 @@
 			productReference = E4AC797B2DDFF6CD00550BC4 /* ScoreKeeper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E4AC79882DDFF6CF00550BC4 /* ScoreKeeperTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E4AC79A02DDFF6CF00550BC4 /* Build configuration list for PBXNativeTarget "ScoreKeeperTests" */;
-			buildPhases = (
-				E4AC79852DDFF6CF00550BC4 /* Sources */,
-				E4AC79862DDFF6CF00550BC4 /* Frameworks */,
-				E4AC79872DDFF6CF00550BC4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E4AC798B2DDFF6CF00550BC4 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E4AC798C2DDFF6CF00550BC4 /* ScoreKeeperTests */,
-			);
-			name = ScoreKeeperTests;
-			packageProductDependencies = (
-			);
-			productName = ScoreKeeperTests;
-			productReference = E4AC79892DDFF6CF00550BC4 /* ScoreKeeperTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E4AC79922DDFF6CF00550BC4 /* ScoreKeeperUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E4AC79A32DDFF6CF00550BC4 /* Build configuration list for PBXNativeTarget "ScoreKeeperUITests" */;
-			buildPhases = (
-				E4AC798F2DDFF6CF00550BC4 /* Sources */,
-				E4AC79902DDFF6CF00550BC4 /* Frameworks */,
-				E4AC79912DDFF6CF00550BC4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E4AC79952DDFF6CF00550BC4 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E4AC79962DDFF6CF00550BC4 /* ScoreKeeperUITests */,
-			);
-			name = ScoreKeeperUITests;
-			packageProductDependencies = (
-			);
-			productName = ScoreKeeperUITests;
-			productReference = E4AC79932DDFF6CF00550BC4 /* ScoreKeeperUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,16 +128,12 @@
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
+					E42DC1082DE6EB0800AE6E4B = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = E4AC797A2DDFF6CD00550BC4;
+					};
 					E4AC797A2DDFF6CD00550BC4 = {
 						CreatedOnToolsVersion = 16.3;
-					};
-					E4AC79882DDFF6CF00550BC4 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = E4AC797A2DDFF6CD00550BC4;
-					};
-					E4AC79922DDFF6CF00550BC4 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = E4AC797A2DDFF6CD00550BC4;
 					};
 				};
 			};
@@ -201,28 +152,20 @@
 			projectRoot = "";
 			targets = (
 				E4AC797A2DDFF6CD00550BC4 /* ScoreKeeper */,
-				E4AC79882DDFF6CF00550BC4 /* ScoreKeeperTests */,
-				E4AC79922DDFF6CF00550BC4 /* ScoreKeeperUITests */,
+				E42DC1082DE6EB0800AE6E4B /* ScoreKeeperTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E42DC1072DE6EB0800AE6E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4AC79792DDFF6CD00550BC4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4AC79872DDFF6CF00550BC4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4AC79912DDFF6CF00550BC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +175,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E42DC1052DE6EB0800AE6E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4AC79772DDFF6CD00550BC4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4AC79852DDFF6CF00550BC4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4AC798F2DDFF6CF00550BC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,19 +192,61 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E4AC798B2DDFF6CF00550BC4 /* PBXTargetDependency */ = {
+		E42DC10E2DE6EB0900AE6E4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E4AC797A2DDFF6CD00550BC4 /* ScoreKeeper */;
-			targetProxy = E4AC798A2DDFF6CF00550BC4 /* PBXContainerItemProxy */;
-		};
-		E4AC79952DDFF6CF00550BC4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E4AC797A2DDFF6CD00550BC4 /* ScoreKeeper */;
-			targetProxy = E4AC79942DDFF6CF00550BC4 /* PBXContainerItemProxy */;
+			targetProxy = E42DC10D2DE6EB0900AE6E4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		E42DC1102DE6EB0900AE6E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.TheodoreZhu.ScoreKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScoreKeeper";
+			};
+			name = Debug;
+		};
+		E42DC1112DE6EB0900AE6E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.TheodoreZhu.ScoreKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScoreKeeper";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		E4AC799B2DDFF6CF00550BC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -457,95 +435,18 @@
 			};
 			name = Release;
 		};
-		E4AC79A12DDFF6CF00550BC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = name.TheodoreZhu.ScoreKeeperTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScoreKeeper";
-				XROS_DEPLOYMENT_TARGET = 2.4;
-			};
-			name = Debug;
-		};
-		E4AC79A22DDFF6CF00550BC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = name.TheodoreZhu.ScoreKeeperTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScoreKeeper";
-				XROS_DEPLOYMENT_TARGET = 2.4;
-			};
-			name = Release;
-		};
-		E4AC79A42DDFF6CF00550BC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = name.TheodoreZhu.ScoreKeeperUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = ScoreKeeper;
-				XROS_DEPLOYMENT_TARGET = 2.4;
-			};
-			name = Debug;
-		};
-		E4AC79A52DDFF6CF00550BC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = name.TheodoreZhu.ScoreKeeperUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = ScoreKeeper;
-				XROS_DEPLOYMENT_TARGET = 2.4;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E42DC10F2DE6EB0900AE6E4B /* Build configuration list for PBXNativeTarget "ScoreKeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42DC1102DE6EB0900AE6E4B /* Debug */,
+				E42DC1112DE6EB0900AE6E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E4AC79762DDFF6CD00550BC4 /* Build configuration list for PBXProject "ScoreKeeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -560,24 +461,6 @@
 			buildConfigurations = (
 				E4AC799E2DDFF6CF00550BC4 /* Debug */,
 				E4AC799F2DDFF6CF00550BC4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E4AC79A02DDFF6CF00550BC4 /* Build configuration list for PBXNativeTarget "ScoreKeeperTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4AC79A12DDFF6CF00550BC4 /* Debug */,
-				E4AC79A22DDFF6CF00550BC4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E4AC79A32DDFF6CF00550BC4 /* Build configuration list for PBXNativeTarget "ScoreKeeperUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4AC79A42DDFF6CF00550BC4 /* Debug */,
-				E4AC79A52DDFF6CF00550BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
